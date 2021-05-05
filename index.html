@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tik-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div class="container">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="play-area" id="area_played">
+      <div id="block_0" class="block" onclick="putZero(this)"></div>
+      <div id="block_1" class="block" onclick="putZero(this)"></div>
+      <div id="block_2" class="block" onclick="putZero(this)"></div>
+      <div id="block_3" class="block" onclick="putZero(this)"></div>
+      <div id="block_4" class="block" onclick="putZero(this)"></div>
+      <div id="block_5" class="block" onclick="putZero(this)"></div>
+      <div id="block_6" class="block" onclick="putZero(this)"></div>
+      <div id="block_7" class="block" onclick="putZero(this)"></div>
+      <div id="block_8" class="block" onclick="putZero(this)"></div>
+    </div>
+    <div class="container">
+      <!-- REST OF THE CODE -->
+      <h2 id="winner"></h2>
+      <button onclick="reload()">RESET BOARD</button>
+    </div>
+  </div>
+
+  <div id="modal">
+    <h2 id="result"></h2>
+  </div>
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
